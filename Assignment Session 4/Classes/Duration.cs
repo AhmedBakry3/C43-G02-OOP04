@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 
 namespace Assignment_Session_4.Classes
 {
@@ -213,7 +213,7 @@ namespace Assignment_Session_4.Classes
         #region Casting Operator Overloading
 
 
-        //Implicit operator to convert Duration to bool
+        //Implicit Casting Operator Overloding to convert Duration to bool
         public static implicit operator bool(Duration d)
         {
             return d.Hours != 0 || d.Minutes != 0 || d.Seconds != 0;
@@ -221,7 +221,7 @@ namespace Assignment_Session_4.Classes
 
 
 
-        // Implicit operator to convert Duration to DateTime
+        // Explicit Casting operator ovetloading to convert Duration to DateTime
         public static explicit operator DateTime(Duration d)
         {
             int totalSeconds = d.Hours * 3600 + d.Minutes * 60 + d.Seconds;
