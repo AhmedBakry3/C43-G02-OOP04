@@ -6,7 +6,7 @@ namespace Assignment_Session_4.Derived_Classes
     {
         public new void DisplayMessage()
         {
-                       Console.WriteLine("Message From DerivedClass2");
+          Console.WriteLine("Message From DerivedClass2");
         }
     }
 }
