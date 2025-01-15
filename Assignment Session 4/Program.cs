@@ -159,7 +159,6 @@ namespace Assignment_Session_4
             //If(D1)
             //DateTime Obj = (DateTime)D1
 
-            Console.WriteLine("================");
             //D3 = D1 + D2
             D3 = D1 + D2;
             Console.WriteLine(D3.ToString()); //Duration = Hours:3, Minutes:10, Seconds:0
