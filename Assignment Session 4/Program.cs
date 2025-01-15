@@ -222,7 +222,7 @@ namespace Assignment_Session_4
             //if(D1)
             if (D1)
             {
-                Console.WriteLine("D1 has a value");
+                Console.WriteLine("D1 has a value"); //D1 has a value
             }
             else
             {
